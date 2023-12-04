@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin:0px;
+
+}
+.logo{
+
+  width:60px;
+}
+.wrapper .side-nav .menu .menu-icons{
+  width: 25px;
+  margin-right:10px;
+
+}
+
+.wrapper{
+  display:flex;
+  flex-direction: row;
+}
+
+.wrapper .side-nav{
+width: 200px;
+height:100vh;
+}
+.wrapper .side-nav .menu{
+  list-style-type: none;
+  padding-left: 10px;
+
+}
+.wrapper .side-nav .menu li{
+  color:#00c8c8;
+  padding: 10px 10px;
+  display:flex;
+  align-items: center;
+  border-radius: 25px;
+  cursor:pointer;
+  margin: 10px;
+  
+}
+.wrapper .side-nav .menu li:hover{
+  background-color: #00c8c8;
+  color: white;
+}
+.wrapper .side-nav .menu .menu-active{
+  background-color: #00c8c8;
+  border-radius: 25px;
+  color: white;
+
+}
+.wrapper .main-content-wrapper{
+  float: right;
+  right: 0px;
+}
+.wrapper .main-content-wrapper .top-nav ul{
+display:flex;
+list-style-type: none;
+justify-content: end;
+}
+
+.top-nav ul li{
+  margin-left: 10px;
+  justify-content:center;
+  align-items: center;
+}
+.form-block{
+  display:block;
+  justify-content: center;
+}
+form{
+  display:flex;
+  width:80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
